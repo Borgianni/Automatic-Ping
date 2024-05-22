@@ -57,7 +57,7 @@ def ping_and_save_metrics(host, duration, output_file):
             time.sleep(1)
 
 def main():
-    host = "cmn61.stanford.edu"  # Modify with the destination host
+    host = "www.unipi.it"  # Modify with the destination host
     duration = datetime.timedelta(days=1)  # Total duration (one day)
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")  # Current date
 
